@@ -1,9 +1,12 @@
+import Link from "next/link";
+
 const Header = () => {
     return (
         <header className="main-header">
-            <a className="logo-holder text-logo" href="#">
+            <Link href="/">
+            <a className="logo-holder text-logo">
                 <h2>ABU RAZEETH</h2>
-            </a>
+            </a></Link>
             <div className="search-button"><i className="far fa-search"></i></div>
             <div className="search-input">
                 <form action="#">
@@ -23,34 +26,26 @@ const Header = () => {
                     <ul>
                         <li id="menu-item-315"
                             className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-315">
-                            <a title="" href="#">Home</a>
+                            <Link title="" href="/">Home</Link>
                         </li>
                         <li id="menu-item-382"
-                            className="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"><a
-                                title="I" href="https://webredox.net/demo/wp/kotlis/dark/about/">About</a></li>
+                            className="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"><Link
+                                title="I" href="/about/">About</Link></li>
                         <li id="menu-item-316"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-316">
-                            <a title="I" href="#">Portfolio</a>
+                            <Link title="I" href="#">Portfolio</Link>
                         </li>
                         <li id="menu-item-480"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480">
-                            <a href="#">Video</a>
+                            <Link href="#">Video</Link>
                         </li>
                         <li id="menu-item-525"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-525">
-                            <a href="#">Shop</a>
+                            <Link href="#">Shop</Link>
                         </li>
                         <li id="menu-item-383"
-                            className="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a
-                                title="I" href="https://webredox.net/demo/wp/kotlis/dark/contacts/">Contacts</a>
-                        </li>
-                        <li id="menu-item-317"
-                            className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-317">
-                            <a title="I" href="#">News</a>
-                        </li>
-                        <li id="menu-item-355"
-                            className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-355">
-                            <a title="I" href="#">Pages</a>
+                            className="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><Link
+                                title="I" href="#">Contacts</Link>
                         </li>
                     </ul>
                 </nav>

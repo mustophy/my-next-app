@@ -412,10 +412,10 @@ const About = () => {
                                                         </div>
                                                     </div>
                                                     <div class="testilider-controls">
-                                                        <div class="ss-slider-btn ss-slider-prev color-bg" tabindex="0"
+                                                        <div class="ss-slider-btn ss-slider-prev color-bg" tabIndex="0"
                                                             role="button" aria-label="Previous slide"><i
                                                                 class="fal fa-angle-left"></i></div>
-                                                        <div class="ss-slider-btn ss-slider-next color-bg" tabindex="0"
+                                                        <div class="ss-slider-btn ss-slider-next color-bg" tabIndex="0"
                                                             role="button" aria-label="Next slide"><i
                                                                 class="fal fa-angle-right"></i></div>
                                                     </div>
