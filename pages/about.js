@@ -3,37 +3,37 @@ import Image from "next/image"
 const About = () => {
     return (
         <>
-            <div class="content">
-                <div class="column-image">
+            <div className="content">
+                <div className="column-image">
 
-                    <div class="bg" data-bg="./images/b2.jpg"
-                        style={{ backgroundImage: 'url(&quot;https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/19.jpg&quot;)' }}>
+                    <div className="bg" data-bg="./images/b2.jpg"
+                        style={{ backgroundImage: "url('./images/b2.jpg')"}}>
                     </div>
-                    <div class="overlay"></div>
-                    <div class="column-title">
+                    <div className="overlay"></div>
+                    <div className="column-title">
                         <h2>About Me</h2>
                         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla
                             finibus lobortis pulvinar.</h3>
 
                     </div>
 
-                    <div class="column-notifer">
-                        <div class="scroll-down-wrap transparent_sdw">
-                            <div class="mousey">
-                                <div class="scroller"></div>
+                    <div className="column-notifer">
+                        <div className="scroll-down-wrap transparent_sdw">
+                            <div className="mousey">
+                                <div className="scroller"></div>
                             </div>
                             <span>Scroll down to Discover</span>
                         </div>
                     </div>
-                    <div class="fixed-column-dec"></div>
+                    <div className="fixed-column-dec"></div>
                 </div>
-                <div class="column-wrapper">
-                    <div class="scroll-nav-wrap">
-                        <nav class="scroll-nav scroll-init">
+                <div className="column-wrapper">
+                    <div className="scroll-nav-wrap">
+                        <nav className="scroll-nav scroll-init">
                             <ul>
 
 
-                                <li><a href="#sec1" class="act-scrlink">About</a></li>
+                                <li><a href="#sec1" className="act-scrlink">About</a></li>
 
 
                                 <li><a href="#sec2">Skills</a></li>
@@ -48,20 +48,20 @@ const About = () => {
                         </nav>
                     </div>
 
-                    <div class="clear"></div>
+                    <div className="clear"></div>
                     <section id="sec1">
-                        <div class="container small-container   ">
-                            <div class="section-title fl-wrap">
+                        <div className="container small-container   ">
+                            <div className="section-title fl-wrap">
                                 <h3> My Little Story</h3>
                                 <h4> Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa</h4>
-                                <div class="section-number"> 01.</div>
+                                <div className="section-number"> 01.</div>
                             </div>
-                            <div class="column-wrapper_item fl-wrap">
-                                <div class="column-wrapper_text fl-wrap">
-                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="sec-text  " >
+                            <div className="column-wrapper_item fl-wrap">
+                                <div className="column-wrapper_text fl-wrap">
+                                    <div className="wpb_column vc_column_container vc_col-sm-12">
+                                        <div className="vc_column-inner">
+                                            <div className="wpb_wrapper">
+                                                <div className="sec-text  " >
                                                     <p>Cras mattis iudicium purus sit amet fermentum at nos hinc
                                                         posthac, sitientis piros afros. Lorem ipsum dolor sit amet,
                                                         consectetur adipisici elit, petierunt uti sibi concilium totius
@@ -376,8 +376,8 @@ const About = () => {
                                                                 <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
                                                                     data-swiper-slide-index="0"
                                                                     style={{ width: '276.5px', marginRight: '20px'}}>
-                                                                    <div class="testi-item fl-wrap">
-                                                                        <div class="testi-avatar"><img
+                                                                    <div className="testi-item fl-wrap">
+                                                                        <div className="testi-avatar"><img
                                                                                 src="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/1-2.jpg"
                                                                                 alt="Liza Mirovsky" /></div>
                                                                         <h3>Liza Mirovsky</h3>
@@ -386,15 +386,15 @@ const About = () => {
                                                                             necessary, making this the first true
                                                                             generator on the Internet. It uses a
                                                                             dictionary of over "</p><a href="#"
-                                                                            class="teti-link" target="_self">Via
+                                                                            className="teti-link" target="_self">Via
                                                                             Twitter</a>
                                                                     </div>
                                                                 </div>
-                                                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next"
+                                                                <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next"
                                                                     data-swiper-slide-index="1"
                                                                     style={{ width: '276.5px', marginRight: '20px'}}>
-                                                                    <div class="testi-item fl-wrap">
-                                                                        <div class="testi-avatar"><img
+                                                                    <div className="testi-item fl-wrap">
+                                                                        <div className="testi-avatar"><img
                                                                                 src="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/2-1.jpg"
                                                                                 alt="Andy Smith" /></div>
                                                                         <h3>Andy Smith</h3>
@@ -403,21 +403,21 @@ const About = () => {
                                                                             non ligula suscipit, vulputate mi accumsan,
                                                                             dapibus felis. Nullam sed sapien dui. Nulla
                                                                             auctor sit amet sem non porta. "</p><a
-                                                                            href="#" class="teti-link"
+                                                                            href="#" className="teti-link"
                                                                             target="_self">Via Facebook</a>
                                                                     </div>
                                                                 </div>
-                                                            </div><span class="swiper-notification"
+                                                            </div><span className="swiper-notification"
                                                                 aria-live="assertive" aria-atomic="true"></span>
                                                         </div>
                                                     </div>
-                                                    <div class="testilider-controls">
-                                                        <div class="ss-slider-btn ss-slider-prev color-bg" tabIndex="0"
+                                                    <div className="testilider-controls">
+                                                        <div className="ss-slider-btn ss-slider-prev color-bg" tabIndex="0"
                                                             role="button" aria-label="Previous slide"><i
-                                                                class="fal fa-angle-left"></i></div>
-                                                        <div class="ss-slider-btn ss-slider-next color-bg" tabIndex="0"
+                                                                className="fal fa-angle-left"></i></div>
+                                                        <div className="ss-slider-btn ss-slider-next color-bg" tabIndex="0"
                                                             role="button" aria-label="Next slide"><i
-                                                                class="fal fa-angle-right"></i></div>
+                                                                className="fal fa-angle-right"></i></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -427,26 +427,26 @@ const About = () => {
                             </div>
                         </div>
                     </section>
-                    <div class="clear"></div>
+                    <div className="clear"></div>
 
-                    <footer class="min-footer fl-wrap content-animvisible">
-                        <div class="container small-container">
-                            <div class="footer-inner fl-wrap">
-                                <div class="policy-box">
+                    <footer className="min-footer fl-wrap content-animvisible">
+                        <div className="container small-container">
+                            <div className="footer-inner fl-wrap">
+                                <div className="policy-box">
                                     <p>© Kotlis 2020 | All rights reserved.</p>
                                 </div>
 
-                                <a href="#" class="to-top-btn to-top">
+                                <a href="#" className="to-top-btn to-top">
                                     Back to top
-                                    <i class="fal fa-long-arrow-up"></i></a>
+                                    <i className="fal fa-long-arrow-up"></i></a>
 
                             </div>
                         </div>
                     </footer>
                 </div>
             </div>
-            <div class="share-wrapper">
-                <div class="share-container fl-wrap  isShare"><a href="http://www.facebook.com/share.php?u=https%3A%2F%2Fwebredox.net%2Fdemo%2Fwp%2Fkotlis%2Fdark%2Fabout%2F" class="pop share-icon share-icon-facebook"></a><a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwebredox.net%2Fdemo%2Fwp%2Fkotlis%2Fdark%2Fabout%2F&amp;media=&amp;description=" class="pop share-icon share-icon-pinterest"></a><a href="https://plusone.google.com/_/+1/confirm?hl=en&amp;url=https%3A%2F%2Fwebredox.net%2Fdemo%2Fwp%2Fkotlis%2Fdark%2Fabout%2F" class="pop share-icon share-icon-googleplus"></a><a href="https://twitter.com/share?via=in1.com&amp;text=About – Kotlis  Photography Portfolio WordPress Theme" class="pop share-icon share-icon-twitter"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwebredox.net%2Fdemo%2Fwp%2Fkotlis%2Fdark%2Fabout%2F&amp;title=About – Kotlis  Photography Portfolio WordPress Theme&amp;summary=&amp;source=in1.com" class="pop share-icon share-icon-linkedin"></a></div>
+            <div className="share-wrapper">
+                <div className="share-container fl-wrap  isShare"><a href="http://www.facebook.com/share.php?u=https%3A%2F%2Fwebredox.net%2Fdemo%2Fwp%2Fkotlis%2Fdark%2Fabout%2F" className="pop share-icon share-icon-facebook"></a><a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwebredox.net%2Fdemo%2Fwp%2Fkotlis%2Fdark%2Fabout%2F&amp;media=&amp;description=" className="pop share-icon share-icon-pinterest"></a><a href="https://plusone.google.com/_/+1/confirm?hl=en&amp;url=https%3A%2F%2Fwebredox.net%2Fdemo%2Fwp%2Fkotlis%2Fdark%2Fabout%2F" className="pop share-icon share-icon-googleplus"></a><a href="https://twitter.com/share?via=in1.com&amp;text=About – Kotlis  Photography Portfolio WordPress Theme" className="pop share-icon share-icon-twitter"></a><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwebredox.net%2Fdemo%2Fwp%2Fkotlis%2Fdark%2Fabout%2F&amp;title=About – Kotlis  Photography Portfolio WordPress Theme&amp;summary=&amp;source=in1.com" className="pop share-icon share-icon-linkedin"></a></div>
             </div>
         </>
     )
