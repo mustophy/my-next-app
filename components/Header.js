@@ -33,7 +33,7 @@ const Header = () => {
                                 title="I" href="/about/">About</Link></li>
                         <li id="menu-item-316"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-316">
-                            <Link title="I" href="/portfolio">Portfolio</Link>
+                            <Link title="I" href="/portfolio/">Portfolio</Link>
                         </li>
                         <li id="menu-item-480"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480">
