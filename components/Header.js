@@ -18,10 +18,14 @@ const Header = () => {
                     Share Kotlis
                 </span></div>
             <div className="nav-button-wrap">
-                <div className="nav-button"><span></span><span></span><span></span></div>
+                <div className="nav-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
             </div>
 
-            <div className="nav-holder main-menu">
+            <div className="nav-holder vismobmenu main-menu">
                 <nav>
                     <ul>
                         <li id="menu-item-315"
