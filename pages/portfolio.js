@@ -9,7 +9,7 @@ const Portfolio = () => {
                     <div className="column-title">
                         <h2>Title Here</h2>
                         <h3>Subtitle goes here</h3>
-                    </div>200200
+                    </div>
                     <div className="column-notifer">
                         <div className="scroll-down-wrap transparent_sdw">
                             <div className="mousey">
