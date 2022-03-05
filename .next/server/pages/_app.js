@@ -115,7 +115,9 @@ const Header = ()=>{
                                 children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                     title: "I",
                                     href: "/portfolio",
-                                    children: "Portfolio"
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        children: "Portfolio"
+                                    })
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("li", {
@@ -226,6 +228,7 @@ const Sidebar = ()=>{
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                     href: "#",
                                                     target: "_blank",
+                                                    rel: "noreferrer",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                                         className: "fab fa-facebook-f"
                                                     })
@@ -235,6 +238,7 @@ const Sidebar = ()=>{
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                     href: "#",
                                                     target: "_blank",
+                                                    rel: "noreferrer",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                                         className: "fab fa-twitter"
                                                     })
@@ -244,6 +248,7 @@ const Sidebar = ()=>{
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                     href: "#",
                                                     target: "_blank",
+                                                    rel: "noreferrer",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                                         className: "fab fa-linkedin"
                                                     })
@@ -253,6 +258,7 @@ const Sidebar = ()=>{
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                     href: "#",
                                                     target: "_blank",
+                                                    rel: "noreferrer",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                                         className: "fab fa-instagram"
                                                     })
@@ -262,6 +268,7 @@ const Sidebar = ()=>{
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                     href: "#",
                                                     target: "_blank",
+                                                    rel: "noreferrer",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                                         className: "fab fa-pinterest-p"
                                                     })
@@ -297,6 +304,7 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/webRedox",
                                                                     "aria-label": "webRedox (screen name: webRedox)",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                                                         "data-scribe": "element:avatar",
                                                                         "data-src-2x": "https://pbs.twimg.com/profile_images/1470415618725740553/LXGaMW6E_bigger.jpg",
@@ -311,6 +319,7 @@ const Sidebar = ()=>{
                                                                         href: "https://twitter.com/webRedox",
                                                                         "aria-label": "webRedox (screen name: webRedox)",
                                                                         target: "_blank",
+                                                                        rel: "noreferrer",
                                                                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                                             children: [
                                                                                 /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -334,11 +343,12 @@ const Sidebar = ()=>{
                                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                                             className: "tweet",
                                                             children: [
-                                                                "Check out \"Tank - Creative Portfolio WordPress Theme.\" on ",
+                                                                "Check out Tank - Creative Portfolio WordPress Theme. on ",
                                                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                                     href: "https://twitter.com/hashtag/EnvatoMarket?src=hash",
                                                                     "data-scribe": "element:hashtag",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             children: "#"
@@ -353,6 +363,7 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/hashtag/webRedox?src=hash",
                                                                     "data-scribe": "element:hashtag",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             children: "#"
@@ -367,6 +378,7 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/hashtag/WPBakery?src=hash",
                                                                     "data-scribe": "element:hashtag",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             children: "#"
@@ -381,6 +393,7 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/hashtag/elementor?src=hash",
                                                                     "data-scribe": "element:hashtag",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             children: "#"
@@ -395,6 +408,7 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/hashtag/portfolio?src=hash",
                                                                     "data-scribe": "element:hashtag",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             children: "#"
@@ -408,6 +422,7 @@ const Sidebar = ()=>{
                                                                     href: "https://t.co/Bd5ZIyBHdY",
                                                                     "data-expanded-url": "https://themeforest.net/item/tank-creative-portfolio-wordpress-theme/34096116",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     title: "https://themeforest.net/item/tank-creative-portfolio-wordpress-theme/34096116",
                                                                     "data-scribe": "element:url",
                                                                     children: [
@@ -437,18 +452,21 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/intent/tweet?in_reply_to=1470417184006361089",
                                                                     className: "twitter_reply_icon",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: "Reply"
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                     href: "https://twitter.com/intent/retweet?tweet_id=1470417184006361089",
                                                                     className: "twitter_retweet_icon",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: "Retweet"
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                     href: "https://twitter.com/intent/favorite?tweet_id=1470417184006361089",
                                                                     className: "twitter_fav_icon",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: "Favorite"
                                                                 })
                                                             ]
@@ -465,6 +483,7 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/webRedox",
                                                                     "aria-label": "webRedox (screen name: webRedox)",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                                                         "data-scribe": "element:avatar",
                                                                         "data-src-2x": "https://pbs.twimg.com/profile_images/1470415618725740553/LXGaMW6E_bigger.jpg",
@@ -479,6 +498,7 @@ const Sidebar = ()=>{
                                                                         href: "https://twitter.com/webRedox",
                                                                         "aria-label": "webRedox (screen name: webRedox)",
                                                                         target: "_blank",
+                                                                        rel: "noreferrer",
                                                                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                                             children: [
                                                                                 /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -502,11 +522,12 @@ const Sidebar = ()=>{
                                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                                             className: "tweet",
                                                             children: [
-                                                                "Check out \"Bauen - Creative Portfolio WordPress Theme.\" on ",
+                                                                "Check out Bauen - Creative Portfolio WordPress Theme. on ",
                                                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                                     href: "https://twitter.com/hashtag/EnvatoMarket?src=hash",
                                                                     "data-scribe": "element:hashtag",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             children: "#"
@@ -521,6 +542,7 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/hashtag/webRedox?src=hash",
                                                                     "data-scribe": "element:hashtag",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             children: "#"
@@ -535,6 +557,7 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/hashtag/WPBakery?src=hash",
                                                                     "data-scribe": "element:hashtag",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             children: "#"
@@ -549,6 +572,7 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/hashtag/Portfolio?src=hash",
                                                                     "data-scribe": "element:hashtag",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             children: "#"
@@ -562,6 +586,7 @@ const Sidebar = ()=>{
                                                                     href: "https://t.co/8XepZsNBT6",
                                                                     "data-expanded-url": "https://themeforest.net/item/bauen-architecture-interior-wordpress-theme/34326026",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     title: "https://themeforest.net/item/bauen-architecture-interior-wordpress-theme/34326026",
                                                                     "data-scribe": "element:url",
                                                                     children: [
@@ -591,18 +616,21 @@ const Sidebar = ()=>{
                                                                     href: "https://twitter.com/intent/tweet?in_reply_to=1470416832918024195",
                                                                     className: "twitter_reply_icon",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: "Reply"
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                     href: "https://twitter.com/intent/retweet?tweet_id=1470416832918024195",
                                                                     className: "twitter_retweet_icon",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: "Retweet"
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                     href: "https://twitter.com/intent/favorite?tweet_id=1470416832918024195",
                                                                     className: "twitter_fav_icon",
                                                                     target: "_blank",
+                                                                    rel: "noreferrer",
                                                                     children: "Favorite"
                                                                 })
                                                             ]
@@ -615,6 +643,7 @@ const Sidebar = ()=>{
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                         href: "https://twitter.com/webredox",
                                         target: "_blank",
+                                        rel: "noreferrer",
                                         className: "twitt_btn fl-wrap",
                                         children: "Follow Us"
                                     })
@@ -660,6 +689,7 @@ const Layout = ({ children  })=>{
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx((head_default()), {
                     children: /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                        async: true,
                         src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js",
                         integrity: "sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==",
                         crossOrigin: "anonymous",
@@ -667,45 +697,59 @@ const Layout = ({ children  })=>{
                     })
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/modernizr-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/easing-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/lightgallery-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/isotope-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/packery-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/share-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/sliding-menu-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/tweenmax-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/swiper-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/tweenmax-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/utility-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/map-min.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/map-script.js"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                    async: true,
                     src: "/js/dark-scripts.js"
                 })
             ]

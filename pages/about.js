@@ -280,11 +280,11 @@ const About = () => {
                                                                                 src="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/3-2.jpg"
                                                                                 alt="Gary Trust"/></div>
                                                                         <h3>Gary Trust</h3>
-                                                                        <p>"All the Lorem Ipsum generators on the
+                                                                        <p>All the Lorem Ipsum generators on the
                                                                             Internet tend to repeat predefined chunks as
                                                                             necessary, making this the first true
                                                                             generator on the Internet. It uses a
-                                                                            dictionary of over "</p><a href="#"
+                                                                            dictionary of over </p><a href="#"
                                                                             className="teti-link" target="_self">Via
                                                                             Myspace</a>
                                                                     </div>
@@ -297,11 +297,11 @@ const About = () => {
                                                                                 src="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/4.jpg"
                                                                                 alt="Centa Simpson" /></div>
                                                                         <h3>Centa Simpson</h3>
-                                                                        <p>"Vestibulum orci felis, ullamcorper non
+                                                                        <p>Vestibulum orci felis, ullamcorper non
                                                                             condimentum non, ultrices ac nunc. Mauris
                                                                             non ligula suscipit, vulputate mi accumsan,
                                                                             dapibus felis. Nullam sed sapien dui. Nulla
-                                                                            auctor sit amet sem non porta. "</p><a
+                                                                            auctor sit amet sem non porta. </p><a
                                                                             href="#" className="teti-link"
                                                                             target="_self">Via Facebook</a>
                                                                     </div>
@@ -314,11 +314,11 @@ const About = () => {
                                                                                 src="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/1-2.jpg"
                                                                                 alt="Liza Mirovsky"/></div>
                                                                         <h3>Liza Mirovsky</h3>
-                                                                        <p>"All the Lorem Ipsum generators on the
+                                                                        <p>All the Lorem Ipsum generators on the
                                                                             Internet tend to repeat predefined chunks as
                                                                             necessary, making this the first true
                                                                             generator on the Internet. It uses a
-                                                                            dictionary of over "</p><a href="#"
+                                                                            dictionary of over </p><a href="#"
                                                                             className="teti-link" target="_self">Via
                                                                             Twitter</a>
                                                                     </div>
@@ -331,11 +331,11 @@ const About = () => {
                                                                                 src="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/2-1.jpg"
                                                                                 alt="Andy Smith" /></div>
                                                                         <h3>Andy Smith</h3>
-                                                                        <p>"Vestibulum orci felis, ullamcorper non
+                                                                        <p>Vestibulum orci felis, ullamcorper non
                                                                             condimentum non, ultrices ac nunc. Mauris
                                                                             non ligula suscipit, vulputate mi accumsan,
                                                                             dapibus felis. Nullam sed sapien dui. Nulla
-                                                                            auctor sit amet sem non porta. "</p><a
+                                                                            auctor sit amet sem non porta. </p><a
                                                                             href="#" className="teti-link"
                                                                             target="_self">Via Facebook</a>
                                                                     </div>
@@ -347,11 +347,11 @@ const About = () => {
                                                                                 src="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/3-2.jpg"
                                                                                 alt="Gary Trust"/></div>
                                                                         <h3>Gary Trust</h3>
-                                                                        <p>"All the Lorem Ipsum generators on the
+                                                                        <p>All the Lorem Ipsum generators on the
                                                                             Internet tend to repeat predefined chunks as
                                                                             necessary, making this the first true
                                                                             generator on the Internet. It uses a
-                                                                            dictionary of over "</p><a href="#"
+                                                                            dictionary of over </p><a href="#"
                                                                             className="teti-link" target="_self">Via
                                                                             Myspace</a>
                                                                     </div>
@@ -364,11 +364,11 @@ const About = () => {
                                                                                 src="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/4.jpg"
                                                                                 alt="Centa Simpson"/></div>
                                                                         <h3>Centa Simpson</h3>
-                                                                        <p>"Vestibulum orci felis, ullamcorper non
+                                                                        <p>Vestibulum orci felis, ullamcorper non
                                                                             condimentum non, ultrices ac nunc. Mauris
                                                                             non ligula suscipit, vulputate mi accumsan,
                                                                             dapibus felis. Nullam sed sapien dui. Nulla
-                                                                            auctor sit amet sem non porta. "</p><a
+                                                                            auctor sit amet sem non porta. </p><a
                                                                             href="#" className="teti-link"
                                                                             target="_self">Via Facebook</a>
                                                                     </div>
@@ -381,11 +381,11 @@ const About = () => {
                                                                                 src="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/1-2.jpg"
                                                                                 alt="Liza Mirovsky" /></div>
                                                                         <h3>Liza Mirovsky</h3>
-                                                                        <p>"All the Lorem Ipsum generators on the
+                                                                        <p>All the Lorem Ipsum generators on the
                                                                             Internet tend to repeat predefined chunks as
                                                                             necessary, making this the first true
                                                                             generator on the Internet. It uses a
-                                                                            dictionary of over "</p><a href="#"
+                                                                            dictionary of over </p><a href="#"
                                                                             className="teti-link" target="_self">Via
                                                                             Twitter</a>
                                                                     </div>
@@ -398,11 +398,11 @@ const About = () => {
                                                                                 src="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/2-1.jpg"
                                                                                 alt="Andy Smith" /></div>
                                                                         <h3>Andy Smith</h3>
-                                                                        <p>"Vestibulum orci felis, ullamcorper non
+                                                                        <p>Vestibulum orci felis, ullamcorper non
                                                                             condimentum non, ultrices ac nunc. Mauris
                                                                             non ligula suscipit, vulputate mi accumsan,
                                                                             dapibus felis. Nullam sed sapien dui. Nulla
-                                                                            auctor sit amet sem non porta. "</p><a
+                                                                            auctor sit amet sem non porta. </p><a
                                                                             href="#" className="teti-link"
                                                                             target="_self">Via Facebook</a>
                                                                     </div>
