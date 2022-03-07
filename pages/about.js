@@ -6,8 +6,8 @@ const About = () => {
             <div className="content">
                 <div className="column-image">
 
-                    <div className="bg" data-bg="./images/b2.jpg"
-                        style={{ backgroundImage: "url('./images/b2.jpg')"}}>
+                    <div className="bg" data-bg="images/b2.jpg"
+                        style={{ backgroundImage: "url('images/b2.jpg')"}}>
                     </div>
                     <div className="overlay"></div>
                     <div className="column-title">
