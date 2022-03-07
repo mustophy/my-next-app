@@ -4,7 +4,7 @@ module.exports = {
     loader: 'imgix',
     path: ''
   },
-  exportTrailingSlash: 'true',
+  trailingSlash: 'true',
   exportPathMap: async function (
     defaultPathMap,
     {dev, dir, outDir, distDir, buildId}
