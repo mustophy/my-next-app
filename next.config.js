@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    loader: 'imgix',
+    loader: 'cloudinary',
     path: ''
   },
   trailingSlash: 'true',
