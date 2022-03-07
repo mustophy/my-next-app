@@ -1,9 +1,5 @@
 module.exports = {
   reactStrictMode: true,
-  images: {
-    loader: 'akamai',
-    path: ''
-  },
   trailingSlash: true,
   exportPathMap: async function (
     defaultPathMap,
