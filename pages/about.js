@@ -6,8 +6,8 @@ const About = () => {
             <div className="content">
                 <div className="column-image">
 
-                    <div className="bg" data-bg="images/b2.jpg"
-                        style={{ backgroundImage: "url('./images/b2.jpg')"}}>
+                    <div className="bg" data-bg="https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/1.jpg"
+                        style={{ backgroundImage: "url('https://webredox.net/demo/wp/kotlis/dark/wp-content/uploads/2019/03/1.jpg')"}}>
                     </div>
                     <div className="overlay"></div>
                     <div className="column-title">
