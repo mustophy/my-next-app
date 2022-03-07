@@ -4,7 +4,7 @@ const Portfolio = () => {
         <>
             <div className="content">
                 <div className="column-image">
-                    <div className="bg" data-bg="images/background.jpg" style={{ backgroundImage: "url('images/background.jpg')" }}></div>
+                    <div className="bg" data-bg="images/background.jpg" style={{ backgroundImage: "url('./images/background.jpg')" }}></div>
                     <div className="overlay"></div>
                     <div className="column-title">
                         <h2>Title Here</h2>
