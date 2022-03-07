@@ -11,7 +11,8 @@ module.exports = {
   ){
     return {
       '/': {page: '/'},
-      '/about': {page: '/about'}
+      '/about': {page: '/about'},
+      '/portfolio': {page: '/portfolio'}
     }
   }
 }
