@@ -45,7 +45,7 @@ const Header = () => {
                         </li>
                         <li id="menu-item-480"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480">
-                            <Link href="#">Video</Link>
+                            <Link href="/video">Video</Link>
                         </li>
                         <li id="menu-item-525"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-525">

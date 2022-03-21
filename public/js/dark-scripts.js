@@ -673,21 +673,7 @@
      }
      n();
      //   lightGallery------------------
-     jQuery(".image-popup").lightGallery({
-         selector: "this",
-         cssEasing: "cubic-bezier(0.25, 0, 0.25, 1)",
-         download: false,
-         counter: false
-     });
-     var o = jQuery(".lightgallery"),
-         p = o.data("looped");
-     o.lightGallery({
-         selector: ".lightgallery a.popup-image",
-         cssEasing: "cubic-bezier(0.25, 0, 0.25, 1)",
-         download: false,
-         loop: true,
-         counter: false
-     });
+     
      //   appear------------------
      jQuery(".stats").appear(function() {
          jQuery(".num").countTo();

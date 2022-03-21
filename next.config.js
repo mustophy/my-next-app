@@ -12,7 +12,8 @@ module.exports = {
     return {
       '/': {page: '/'},
       '/about': {page: '/about'},
-      '/portfolio': {page: '/portfolio'}
+      '/portfolio': {page: '/portfolio'},
+      '/video': {page: '/video'}
     }
   }
 }
