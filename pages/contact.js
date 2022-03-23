@@ -60,7 +60,7 @@ const Contact = () => {
                                                         <ul>
                                                             <li>
                                                                 <span>Mail : </span><a target="_blank"
-                                                                    href="mailto:yourmail@domain.com">yourmail@domain.com</a>
+                                                                    href="mailto:yourmail@domain.com" rel="noreferrer">yourmail@domain.com</a>
                                                             </li>
                                                             <li><span>Address : </span>
                                                                 <p><a href="#">USA 27TH Brooklyn NY</a></p>
