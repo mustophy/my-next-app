@@ -53,7 +53,7 @@ const Header = () => {
                         </li>
                         <li id="menu-item-383"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><Link
-                                title="I" href="#">Contacts</Link>
+                                title="I" href="/contact">Contacts</Link>
                         </li>
                     </ul>
                 </nav>

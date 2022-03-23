@@ -13,7 +13,8 @@ module.exports = {
       '/': {page: '/'},
       '/about': {page: '/about'},
       '/portfolio': {page: '/portfolio'},
-      '/video': {page: '/video'}
+      '/video': {page: '/video'},
+      '/contact': {page: '/contact'}
     }
   }
 }

@@ -21,6 +21,7 @@ const Layout = ({ children }) => {
                 </Head>
                 <script async src="/js/modernizr-min.js" />
                 <script async src="/js/easing-min.js" />
+                <script async src="/js/lightgallery-min.js"/>
                 <script async src="/js/isotope-min.js" />
                 <script async src="/js/packery-min.js" />
                 <script async src="/js/share-min.js" />
