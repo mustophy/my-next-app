@@ -258,33 +258,18 @@ const Contact = () => {
                                                                 <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                                 <ul></ul>
                                                             </div>
-                                                            <form action="/demo/wp/kotlis/dark/contacts/#wpcf7-f5-p157-o1" method="post"
-                                                                className="wpcf7-form init" noValidate="novalidate" data-status="init">
-                                                                <div style={{display: 'none'}}>
-                                                                    <input type="hidden" name="_wpcf7" defaultValue="5" />
-                                                                    <input type="hidden" name="_wpcf7_version" defaultValue="5.5.6" />
-                                                                    <input type="hidden" name="_wpcf7_locale" defaultValue="en_US" />
-                                                                    <input type="hidden" name="_wpcf7_unit_tag" defaultValue="wpcf7-f5-p157-o1" />
-                                                                    <input type="hidden" name="_wpcf7_container_post" defaultValue="157" />
-                                                                    <input type="hidden" name="_wpcf7_posted_data_hash" defaultValue="" />
-                                                                </div>
-                                                                <p><span className="wpcf7-form-control-wrap your-name"><input type="text"
+                                                            <form method="post" data-status="init">
+                                                                <p><span ><input type="text"
                                                                     name="your-name" defaultValue="" size="40"
-                                                                    className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    placeholder="Your Name *" /></span></p>
-                                                                <p><span className="wpcf7-form-control-wrap your-email"><input type="email"
+                                                                    required placeholder="Your Name *" /></span></p>
+                                                                <p><span className=" your-email"><input type="email"
                                                                     name="your-email" defaultValue="" size="40"
-                                                                    className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                                                    aria-required="true" aria-invalid="false"
                                                                     placeholder="Email Address *" /></span></p>
-                                                                <p><span className="wpcf7-form-control-wrap your-message"><textarea
+                                                                <p><span className=" your-message"><textarea
                                                                     name="your-message" cols="40" rows="10"
-                                                                    className="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
                                                                     placeholder="Your Message:"></textarea></span></p>
                                                                 <p><button
-                                                                    className="btn float-btn flat-btn color-bg wpcf7-form-control wpcf7-submit">Send
+                                                                    className="btn float-btn flat-btn color-bg">Send
                                                                     Message</button></p>
                                                                 <div className="wpcf7-response-output" aria-hidden="true"></div>
                                                             </form>

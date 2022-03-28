@@ -16,9 +16,7 @@ const Layout = ({ children }) => {
                 <div className="element">
                     <div className="element-item"></div>
                 </div>
-                <Head>
-                    <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
-                </Head>
+                <script async src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossOrigin="anonymous" />
                 <script async src="/js/modernizr-min.js" />
                 <script async src="/js/easing-min.js" />
                 <script async src="/js/lightgallery-min.js"/>
