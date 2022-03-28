@@ -258,7 +258,7 @@ const Contact = () => {
                                                                 <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                                 <ul></ul>
                                                             </div>
-                                                            <form method="post" data-status="init">
+                                                            <form method="post" action="#">
                                                                 <p><span ><input type="text"
                                                                     name="your-name" defaultValue="" size="40"
                                                                     required placeholder="Your Name *" /></span></p>
@@ -271,7 +271,6 @@ const Contact = () => {
                                                                 <p><button
                                                                     className="btn float-btn flat-btn color-bg">Send
                                                                     Message</button></p>
-                                                                <div className="wpcf7-response-output" aria-hidden="true"></div>
                                                             </form>
                                                         </div>
                                                     </div>
