@@ -769,51 +769,7 @@
          hideSidebar();
      });
      //   Video------------------
-     var v = jQuery(".background-youtube").data("vid");
-     var f = jQuery(".background-youtube").data("mv");
-     jQuery(".background-youtube").YTPlayer({
-         fitToBackground: true,
-         videoId: v,
-         pauseOnScroll: true,
-         mute: f,
-         callback: function() {
-             var a = jQuery(".background-video").data("ytPlayer").player;
-         }
-     });
-     var w = jQuery(".background-vimeo").data("vim");
-     jQuery(".background-vimeo").append('<iframe src="//player.vimeo.com/video/' + w + '?background=1"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>');
-     jQuery(".video-holder").height(jQuery(".media-container").height());
-     if (jQuery(window).width() > 1024) {
-         if (jQuery(".video-holder").size() > 0)
-             if (jQuery(".media-container").height() / 9 * 16 > jQuery(".media-container").width()) {
-                 jQuery(".background-vimeo iframe ").height(jQuery(".media-container").height()).width(jQuery(".media-container").height() / 9 * 16);
-                 jQuery(".background-vimeo iframe ").css({
-                     "margin-left": -1 * jQuery("iframe").width() / 2 + "px",
-                     top: "-75px",
-                     "margin-top": "0px"
-                 });
-             }
-         else {
-             jQuery(".background-vimeo iframe ").width(jQuery(window).width()).height(jQuery(window).width() / 16 * 9);
-             jQuery(".background-vimeo iframe ").css({
-                 "margin-left": -1 * jQuery("iframe").width() / 2 + "px",
-                 "margin-top": -1 * jQuery("iframe").height() / 2 + "px",
-                 top: "50%"
-             });
-         }
-     } else if (jQuery(window).width() < 760) {
-         jQuery(".video-holder").height(jQuery(".media-container").height());
-         jQuery(".background-vimeo iframe ").height(jQuery(".media-container").height());
-     } else {
-         jQuery(".video-holder").height(jQuery(".media-container").height());
-         jQuery(".background-vimeo iframe ").height(jQuery(".media-container").height());
-     }
-        jQuery(".video-container").css("width", jQuery(window).width() + "px");
-        jQuery(".video-container").css("height", 720 / 1280 * jQuery(window).width()) + "px";
-    if (jQuery(".video-container").height() < jQuery(window).height()) {
-        jQuery(".video-container").css("height", jQuery(window).height() + "px");
-        jQuery(".video-container").css("width", 1280 / 720 * jQuery(window).height()) + "px";
-    }
+     
      //   scroll to------------------
      jQuery(".custom-scroll-link").on("click", function() {
          var a = jQuery(".main-header").height();
