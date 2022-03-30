@@ -264,10 +264,10 @@ const Contact = () => {
                                                                     required placeholder="Your Name *" /></span></p>
                                                                 <p><span className=" your-email"><input type="email"
                                                                     name="your-email" defaultValue="" size="40"
-                                                                    placeholder="Email Address *" /></span></p>
+                                                                    placeholder="Email Address *" required/></span></p>
                                                                 <p><span className=" your-message"><textarea
                                                                     name="your-message" cols="40" rows="10"
-                                                                    placeholder="Your Message:"></textarea></span></p>
+                                                                    placeholder="Your Message:" required></textarea></span></p>
                                                                 <p><button
                                                                     className="btn float-btn flat-btn color-bg">Send
                                                                     Message</button></p>
