@@ -160,6 +160,7 @@ span.wpcf7-not-valid-tip {
     text-align: left;
     padding-bottom: 20px;
 	width: 100%;
+    color: #dc3232;
 }
 div.wpcf7 .ajax-loader{
 	margin: 38px 0 0 15px;

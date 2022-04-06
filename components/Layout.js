@@ -19,7 +19,6 @@ const Layout = ({ children }) => {
                 <script async src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossOrigin="anonymous" />
                 <script async src="/js/modernizr-min.js" />
                 <script async src="/js/easing-min.js" />
-                <script async src="/js/lightgallery-min.js"/>
                 <script async src="/js/isotope-min.js" />
                 <script async src="/js/packery-min.js" />
                 <script async src="/js/share-min.js" />
@@ -28,8 +27,8 @@ const Layout = ({ children }) => {
                 <script async src="/js/swiper-min.js" />
                 <script async src="/js/tweenmax-min.js" />
                 <script async src="/js/utility-min.js" />
-                <script async src="/js/map-min.js" />
                 <script async src="/js/map-script.js" />
+                <script async src="/js/map-min.js" />
                 <script async src="/js/dark-scripts.js" />
             </div>
         </>

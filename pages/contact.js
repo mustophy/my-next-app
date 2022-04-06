@@ -1,6 +1,20 @@
 import Image from "next/image"
+import HCaptcha from '@hcaptcha/react-hcaptcha';
+import { useState } from 'react';
 
 const Contact = () => {
+
+    const [token, setToken] = useState(false);
+    const [captchaError, setCaptchaError] = useState(false)
+    const handleVerificationSuccess = (token, ekey) => {
+        setToken(token)
+    }
+    const sendMessage = (e) => {
+        e.preventDefault()
+        if(!token) return setCaptchaError("You must check the captcha to proceed")
+        setCaptchaError(false)
+
+    }
     return (
         <>
             <div className="content">
@@ -258,7 +272,7 @@ const Contact = () => {
                                                                 <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                                 <ul></ul>
                                                             </div>
-                                                            <form method="post" action="#">
+                                                            <form onSubmit={sendMessage}>
                                                                 <p><span ><input type="text"
                                                                     name="your-name" defaultValue="" size="40"
                                                                     required placeholder="Your Name *" /></span></p>
@@ -268,6 +282,13 @@ const Contact = () => {
                                                                 <p><span className=" your-message"><textarea
                                                                     name="your-message" cols="40" rows="10"
                                                                     placeholder="Your Message:" required></textarea></span></p>
+                                                                <div style={{textAlign: 'center'}}>
+                                                                    <HCaptcha
+                                                                        sitekey={process.env.NEXT_PUBLIC_CAPTCHA_SITE_KEY}
+                                                                        onVerify={(token,ekey) => handleVerificationSuccess(token, ekey)}
+                                                                    />
+                                                                </div>
+                                                                <span className="wpcf7-not-valid-tip" >{captchaError && <>{captchaError}</>}</span>
                                                                 <p><button
                                                                     className="btn float-btn flat-btn color-bg">Send
                                                                     Message</button></p>

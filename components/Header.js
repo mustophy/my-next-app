@@ -13,9 +13,6 @@ const Header = () => {
                 </form>
             </div>
             <div className="sb-button"></div>
-            <div className="share-btn showshare"><i className="fal fa-megaphone"></i><span>
-                Share Kotlis
-            </span></div>
             <div className="nav-button-wrap">
                 <div className="nav-button">
                     <span></span>
