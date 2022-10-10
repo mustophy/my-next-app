@@ -5,7 +5,6 @@ import '../styles/style.css'
 import '../styles/yourstyle.css'
 import '../styles/style-dark.css'
 import '../styles/style2.css'
-import "plyr-react/dist/plyr.css";
 
 
 import Layout from '../components/Layout'

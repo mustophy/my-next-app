@@ -45,7 +45,7 @@ const Header = () => {
                         </li>
                         <li id="menu-item-525"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-525">
-                            <a href="#">Shop</a>
+                            <a href="https://www.shop.ohovisuals.com">Shop</a>
                         </li>
                         <li id="menu-item-383"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a
