@@ -16,20 +16,19 @@ const Layout = ({ children }) => {
                 <div className="element">
                     <div className="element-item"></div>
                 </div>
-                <script async src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossOrigin="anonymous" />
-                <script async src="/js/modernizr-min.js" />
-                <script async src="/js/easing-min.js" />
-                <script async src="/js/isotope-min.js" />
-                <script async src="/js/packery-min.js" />
-                <script async src="/js/share-min.js" />
-                <script async src="/js/sliding-menu-min.js" />
-                <script async src="/js/tweenmax-min.js" />
-                <script async src="/js/swiper-min.js" />
-                <script async src="/js/tweenmax-min.js" />
-                <script async src="/js/utility-min.js" />
-                <script async src="/js/map-script.js" />
-                <script async src="/js/map-min.js" />
-                <script async src="/js/dark-scripts.js" />
+                <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossOrigin="anonymous" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/modernizr-min.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/easing-min.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/isotope-min.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/packery-min.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/share-min.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/sliding-menu-min.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/tweenmax-min.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/swiper-min.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/tweenmax-min.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/utility-min.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/map-script.js" />
+                <script defer src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/js/dark-scripts.js" />
             </div>
         </>
     )
