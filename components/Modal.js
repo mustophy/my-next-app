@@ -4,7 +4,7 @@ const Modal = ({ src, setShowModal }) => {
         type: "video",
         sources: [
             {
-                src: src,
+                src: 'src',
                 provider: "youtube"
             }
         ]
@@ -12,7 +12,7 @@ const Modal = ({ src, setShowModal }) => {
     return (
         <div onClick={() => setShowModal(false)} style={{width: '100vw'}}>
             <div style={{ 'maxWidth': '855px', margin: '0 auto'}} onClick={e => e.stopPropagation()}>
-                <Plyr source={videoSrc} />
+                <Plyr source={'https://masai.fra1.digitaloceanspaces.com/next-app/videos/nature.mp4'} src="https://masai.fra1.digitaloceanspaces.com/next-app/videos/nature.mp4"/>
             </div>
         </div>
     )
