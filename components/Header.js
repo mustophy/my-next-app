@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header className="main-header">
                 <a className="logo-holder text-logo" href="/">
-                    <h2>ABU RAZEETH</h2>
+                    <h2>OHOVISUALS</h2>
                 </a>
             <div className="search-button"><i className="far fa-search"></i></div>
             <div className="search-input">
