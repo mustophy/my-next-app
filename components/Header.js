@@ -3,10 +3,9 @@ import Link from "next/link";
 const Header = () => {
     return (
         <header className="main-header">
-            <Link href="/">
-                <a className="logo-holder text-logo">
-                    <h2>ABU RAZEETH</h2>
-                </a></Link>
+                <a className="logo-holder text-logo" href="/">
+                    <h2>OHOVISUALS</h2>
+                </a>
             <div className="search-button"><i className="far fa-search"></i></div>
             <div className="search-input">
                 <form action="#">
@@ -14,9 +13,6 @@ const Header = () => {
                 </form>
             </div>
             <div className="sb-button"></div>
-            <div className="share-btn showshare"><i className="fal fa-megaphone"></i><span>
-                Share Kotlis
-            </span></div>
             <div className="nav-button-wrap">
                 <div className="nav-button">
                     <span></span>
@@ -30,30 +26,30 @@ const Header = () => {
                     <ul>
                         <li id="menu-item-315"
                             className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-315">
-                            <Link title="" href="/"><a>Home</a></Link>
+                            <a title="" href="/">Home</a>
                         </li>
                         <li id="menu-item-382" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-382">
-                            <Link title="I" href="/about">
-                                <a>About</a>
-                            </Link>
+                            <a title="I" href="/about">
+                                About
+                            </a>
                         </li>
                         <li id="menu-item-316"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-316">
-                            <Link title="I" href="/portfolio">
-                                <a>Portfolio</a>
-                            </Link>
+                            <a title="I" href="/portfolio">
+                                Portfolio
+                            </a>
                         </li>
                         <li id="menu-item-480"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480">
-                            <Link href="#">Video</Link>
+                            <a href="/video">Video</a>
                         </li>
                         <li id="menu-item-525"
                             className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-525">
-                            <Link href="#">Shop</Link>
+                            <a href="https://www.shop.ohovisuals.com">Shop</a>
                         </li>
                         <li id="menu-item-383"
-                            className="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><Link
-                                title="I" href="#">Contacts</Link>
+                            className="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a
+                                title="I" href="/contact">Contacts</a>
                         </li>
                     </ul>
                 </nav>

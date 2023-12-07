@@ -11,8 +11,8 @@ const Home = () => {
             <div className="swiper-container">
               <div className="swiper-wrapper">
                 <div className="swiper-slide hov_zoom">
-                  <Image src="/images/b2.jpg" alt="Some image" layout={'fill'} />
-                  <Link href="/images/b2.jpg">
+                  <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg" alt="Some image" layout={'fill'} />
+                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg">
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
@@ -27,8 +27,8 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="swiper-slide hov_zoom">
-                  <Image src="/images/background.jpg" alt="Some image" width={584} height={438} />
-                  <Link href="/images/background.jpg">
+                  <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg" alt="Some image" width={584} height={438} />
+                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg">
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
@@ -43,8 +43,8 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="swiper-slide hov_zoom">
-                  <Image src="/images/b2.jpg" alt="Some image" width={584} height={438} />
-                  <Link href="/images/b2.jpg">
+                  <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg" alt="Some image" width={584} height={438} />
+                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg">
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
@@ -59,8 +59,8 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="swiper-slide hov_zoom">
-                  <Image src="/images/background.jpg" width={584} height={438} alt="Some image" />
-                  <Link href="/images/background.jpg" >
+                  <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg" width={584} height={438} alt="Some image" />
+                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg" >
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
@@ -77,8 +77,8 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="swiper-slide hov_zoom">
-                  <Image src="/images/b2.jpg" alt="Some image" width={584} height={438} />
-                  <Link href="/images/b2.jpg">
+                  <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg" alt="Some image" width={584} height={438} />
+                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg">
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
@@ -95,8 +95,8 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="swiper-slide hov_zoom">
-                  <Image src="/images/background.jpg" alt="Some image" width={584} height={438} />
-                  <Link href="/images/background.jpg">
+                  <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg" alt="Some image" width={584} height={438} />
+                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg">
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>

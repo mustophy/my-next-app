@@ -1,10 +1,11 @@
 import '../styles/reset.css'
+import '../styles/map.css'
 import '../styles/plugins.css'
 import '../styles/style.css'
 import '../styles/yourstyle.css'
 import '../styles/style-dark.css'
-import '../styles/style2.css'
-
+import '../styles/style2.css';
+import "plyr-react/plyr.css";
 
 import Layout from '../components/Layout'
 

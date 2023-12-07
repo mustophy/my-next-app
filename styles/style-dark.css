@@ -31,7 +31,8 @@ blockquote:before {
 }
 .custom-form textarea, .custom-form input[type="text"], .custom-form input[type=email], .custom-form input[type=password] {
 	background:rgba(255,255,255,0.1);
-	border-color:transparent
+	border-color:transparent;
+	color: white;
 }
 #subscribe-button  , .twitt_btn , #footer-twiit p.interact a , .slider-counter_wrap .fw-carousel-counter, .slider-counter_wrap .swiper-counter, .slider-counter_wrap .count-folio , .hs_init:before  ,.btn , .skillbar-bg , .serv-price , .to-top , .bottom-filter-wrap:before  , .single-carousel-control .fw-carousel-counter {
 	background:#000;
