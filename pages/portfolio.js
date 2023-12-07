@@ -31,7 +31,7 @@ const Portfolio = () => {
                     <div className="gallery-items min-pad   three-column fl-wrap lightgallery" style={{ position: 'relative', height: '1160.91px' }}>
                         <div className="gallery-item nature " style={{ position: 'absolute', left: '0px', top: '0px' }}>
                             <div className="grid-item-holder hov_zoom">
-                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/eleven.jpg" alt="Alone on Nature" height={354} width={237} layout='responsive' />
+                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/eleven.jpg" alt="Alone on Nature" height={354} width={237} layout='responsive' objectFit='cover' />
                                 <a href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/eleven.jpg" className="box-media-zoom   popup-image"><i className="fal fa-search"></i></a>
                                 <div className="thumb-info">
                                     <h3><a href="https://webredox.net/demo/wp/kotlis/dark/portfolio/alone-on-nature/">Alone on Nature</a></h3>
@@ -41,7 +41,7 @@ const Portfolio = () => {
                         </div>
                         <div className="gallery-item nature " style={{ position: 'absolute', left: '244px', top: '0px' }}>
                             <div className="grid-item-holder hov_zoom">
-                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/two.jpg" alt="Alone on Nature" height={158} width={237} layout='responsive' />
+                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/two.jpg" alt="Alone on Nature" height={158} width={237} layout='responsive' objectFit='cover' />
                                 <a href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/two.jpg" className="box-media-zoom   popup-image"><i className="fal fa-search"></i></a>
                                 <div className="thumb-info">
                                     <h3><a href="https://webredox.net/demo/wp/kotlis/dark/portfolio/alone-on-nature/">Alone on Nature</a></h3>
@@ -51,7 +51,7 @@ const Portfolio = () => {
                         </div>
                         <div className="gallery-item nature " style={{ position: 'absolute', left: '489px', top: '0px' }}>
                             <div className="grid-item-holder hov_zoom">
-                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/three.jpg" alt="Alone on Nature" height={158} width={237} layout='responsive' />
+                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/three.jpg" alt="Alone on Nature" height={158} width={237} layout='responsive' objectFit='cover' />
                                 <a href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/three.jpg" className="box-media-zoom   popup-image"><i className="fal fa-search"></i></a>
                                 <div className="thumb-info">
                                     <h3><a href="https://webredox.net/demo/wp/kotlis/dark/portfolio/alone-on-nature/">Alone on Nature</a></h3>
@@ -61,7 +61,7 @@ const Portfolio = () => {
                         </div>
                         <div className="gallery-item nature " style={{ position: 'absolute', left: '244px', top: '165px' }}>
                             <div className="grid-item-holder hov_zoom">
-                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/13.jpg" alt="Alone on Nature" height={354} width={237} layout='responsive' />
+                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/13.jpg" alt="Alone on Nature" height={354} width={237} layout='responsive' objectFit='cover' />
                                 <a href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/13.jpg" className="box-media-zoom   popup-image"><i className="fal fa-search"></i></a>
                                 <div className="thumb-info">
                                     <h3><a href="https://webredox.net/demo/wp/kotlis/dark/portfolio/alone-on-nature/">Alone on Nature</a></h3>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                         </div>
                         <div className="gallery-item nature " style={{ position: 'absolute', left: '489px', top: '165px' }}>
                             <div className="grid-item-holder hov_zoom">
-                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/five.jpg" alt="Alone on Nature" height={158} width={237} layout='responsive' />
+                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/five.jpg" alt="Alone on Nature" height={158} width={237} layout='responsive' objectFit='cover' />
                                 <a href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/five.jpg" className="box-media-zoom   popup-image"><i className="fal fa-search"></i></a>
                                 <div className="thumb-info">
                                     <h3><a href="https://webredox.net/demo/wp/kotlis/dark/portfolio/alone-on-nature/">Alone on Nature</a></h3>
@@ -81,7 +81,7 @@ const Portfolio = () => {
                         </div>
                         <div className="gallery-item nature " style={{ position: 'absolute', left: '489px', top: '331px' }}>
                             <div className="grid-item-holder hov_zoom">
-                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/six.jpg" alt="Alone on Nature" height={158} width={237} layout='responsive' />
+                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/six.jpg" alt="Alone on Nature" height={158} width={237} layout='responsive' objectFit='cover' />
                                 <a href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/six.jpg" className="box-media-zoom   popup-image"><i className="fal fa-search"></i></a>
                                 <div className="thumb-info">
                                     <h3><a href="https://webredox.net/demo/wp/kotlis/dark/portfolio/alone-on-nature/">Alone on Nature</a></h3>
@@ -91,7 +91,7 @@ const Portfolio = () => {
                         </div>
                         <div className="gallery-item nature " style={{ position: 'absolute', left: '0px', top: '362px' }}>
                             <div className="grid-item-holder hov_zoom">
-                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/twelve.jpg" alt="Alone on Nature" height={158} width={237} layout='responsive' />
+                                <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/twelve.jpg" alt="Alone on Nature" height={158} width={237} layout='responsive' objectFit='cover' />
                                 <a href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/portfolio/twelve.jpg" className="box-media-zoom   popup-image"><i className="fal fa-search"></i></a>
                                 <div className="thumb-info">
                                     <h3><a href="https://webredox.net/demo/wp/kotlis/dark/portfolio/alone-on-nature/">Alone on Nature</a></h3>
