@@ -26,9 +26,9 @@ body {
 	color: #000;
 	font-family: 'Ek Mukta', sans-serif;
 }
-@-o-viewport {
+/* @-o-viewport {
 	width: device-width;
-}
+} */
 @-ms-viewport {
 	width: device-width;
 }

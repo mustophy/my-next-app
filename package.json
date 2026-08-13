@@ -10,14 +10,21 @@
   },
   "dependencies": {
     "@hcaptcha/react-hcaptcha": "^1.1.1",
-    "next": "12.0.10",
-    "plyr-react": "^5.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-leaflet": "^3.2.5"
+    "next": "16.3.0",
+    "plyr": "^3.8.4",
+    "plyr-react": "^6.0.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-leaflet": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "8.8.0",
-    "eslint-config-next": "12.0.10"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

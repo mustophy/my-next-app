@@ -12,13 +12,13 @@ const Home = () => {
               <div className="swiper-wrapper">
                 <div className="swiper-slide hov_zoom">
                   <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg" alt="Some image" layout={'fill'} />
-                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg">
+                  <Link legacyBehavior href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg">
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
                   </Link>
                   <div className="thumb-info">
-                    <h3><Link href="#"><a >Post title</a></Link></h3>
+                    <h3><Link legacyBehavior href="#"><a >Post title</a></Link></h3>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nostrum rem?
                       Fugiat voluptate aliquid fuga esse quam soluta perferendis corporis a vero,
@@ -28,13 +28,13 @@ const Home = () => {
                 </div>
                 <div className="swiper-slide hov_zoom">
                   <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg" alt="Some image" width={584} height={438} />
-                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg">
+                  <Link legacyBehavior href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg">
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
                   </Link>
                   <div className="thumb-info">
-                    <h3><Link href="#"><a >Post title</a></Link></h3>
+                    <h3><Link legacyBehavior href="#"><a >Post title</a></Link></h3>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nostrum rem?
                       Fugiat voluptate aliquid fuga esse quam soluta perferendis corporis a vero,
@@ -44,13 +44,13 @@ const Home = () => {
                 </div>
                 <div className="swiper-slide hov_zoom">
                   <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg" alt="Some image" width={584} height={438} />
-                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg">
+                  <Link legacyBehavior href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg">
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
                   </Link>
                   <div className="thumb-info">
-                    <h3><Link href="#"><a>Post title</a></Link></h3>
+                    <h3><Link legacyBehavior href="#"><a>Post title</a></Link></h3>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nostrum rem?
                       Fugiat voluptate aliquid fuga esse quam soluta perferendis corporis a vero,
@@ -60,14 +60,14 @@ const Home = () => {
                 </div>
                 <div className="swiper-slide hov_zoom">
                   <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg" width={584} height={438} alt="Some image" />
-                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg" >
+                  <Link legacyBehavior href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg" >
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
                   </Link>
                   <div className="thumb-info">
                     <h3>
-                      <Link href="#"><a >Post title</a></Link>
+                      <Link legacyBehavior href="#"><a >Post title</a></Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nostrum rem?
@@ -78,14 +78,14 @@ const Home = () => {
                 </div>
                 <div className="swiper-slide hov_zoom">
                   <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg" alt="Some image" width={584} height={438} />
-                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg">
+                  <Link legacyBehavior href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/leaf.jpg">
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
                   </Link>
                   <div className="thumb-info">
                     <h3>
-                      <Link href="#"><a>Post title</a></Link>
+                      <Link legacyBehavior href="#"><a>Post title</a></Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nostrum rem?
@@ -96,14 +96,14 @@ const Home = () => {
                 </div>
                 <div className="swiper-slide hov_zoom">
                   <Image src="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg" alt="Some image" width={584} height={438} />
-                  <Link href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg">
+                  <Link legacyBehavior href="https://masai.fra1.cdn.digitaloceanspaces.com/next-app/images/land.jpg">
                     <a className="box-media-zoom   popup-image">
                       <i className="fal fa-search"></i>
                     </a>
                   </Link>
                   <div className="thumb-info">
                     <h3>
-                      <Link href="#"><a>Post title</a></Link>
+                      <Link legacyBehavior href="#"><a>Post title</a></Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nostrum rem?
@@ -113,7 +113,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="swiper-slide swiper-link-wrap hov_zoom">
-                  <Link href="#"><a className="swiper-link"><span>Hello world</span></a></Link>
+                  <Link legacyBehavior href="#"><a className="swiper-link"><span>Hello world</span></a></Link>
                 </div>
               </div>
             </div>

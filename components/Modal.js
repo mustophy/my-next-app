@@ -1,18 +1,11 @@
-import Plyr from 'plyr-react'
+"use client";
+import dynamic from 'next/dynamic'
+const Plyr = dynamic(() => import("plyr-react"), { ssr: false });
 const Modal = ({ src, setShowModal }) => {
-    const videoSrc = {
-        type: "video",
-        sources: [
-            {
-                src: 'src',
-                provider: "youtube"
-            }
-        ]
-    };
     return (
         <div onClick={() => setShowModal(false)} style={{width: '100vw'}}>
             <div style={{ 'maxWidth': '855px', margin: '0 auto'}} onClick={e => e.stopPropagation()}>
-                <Plyr source={'https://masai.fra1.digitaloceanspaces.com/next-app/videos/nature.mp4'} src="https://masai.fra1.digitaloceanspaces.com/next-app/videos/nature.mp4"/>
+                <Plyr source={src} src={src}/>
             </div>
         </div>
     )

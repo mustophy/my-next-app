@@ -4,6 +4,12 @@ module.exports = {
   images: {
     loader: 'akamai',
     path: '',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'masai.fra1.cdn.digitaloceanspaces.com',
+      },
+    ],
   },
   exportPathMap: async function (
     defaultPathMap,
